@@ -1,4 +1,4 @@
-package com.grijalvaromero.carritoapp
+package com.charles.carritoapp
 
 import android.content.Intent
 import android.os.Bundle
@@ -11,8 +11,8 @@ import com.android.volley.Request
 import com.android.volley.Response
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
-import com.grijalvaromero.carritoapp.configs.Config
-import com.grijalvaromero.carritoapp.databinding.ActivityRegistroClienteBinding
+import com.charles.carritoapp.configs.Config
+import com.charles.carritoapp.databinding.ActivityRegistroClienteBinding
 import org.json.JSONObject
 
 

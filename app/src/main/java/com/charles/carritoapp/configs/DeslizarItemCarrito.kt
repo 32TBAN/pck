@@ -1,4 +1,4 @@
-package com.grijalvaromero.carritoapp.configs
+package com.charles.carritoapp.configs
 
 
 import android.content.Context
@@ -6,7 +6,7 @@ import android.graphics.Canvas
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
-import com.grijalvaromero.carritoapp.R
+import com.charles.carritoapp.R
 import it.xabaras.android.recyclerview.swipedecorator.RecyclerViewSwipeDecorator
 
 

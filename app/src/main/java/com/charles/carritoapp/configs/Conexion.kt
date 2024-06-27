@@ -1,4 +1,4 @@
-package com.grijalvaromero.carritoapp.configs
+package com.charles.carritoapp.configs
 
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase

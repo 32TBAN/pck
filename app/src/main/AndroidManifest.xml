@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.grijalvaromero.carritoapp">
+    package="com.charles.carritoapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -13,21 +13,21 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.CarritoApp">
         <activity
-            android:name=".FacturaVerActivity"
+            android:name="com.charles.carritoapp.FacturaVerActivity"
             android:exported="false" />
         <activity
-            android:name=".RegistroClienteActivity"
+            android:name="com.charles.carritoapp.RegistroClienteActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.charles.carritoapp.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".Carrito"
+            android:name="com.charles.carritoapp.Carrito"
             android:exported="false" />
         <activity
-            android:name=".VerProducto"
+            android:name="com.charles.carritoapp.VerProducto"
             android:exported="false" />
-        <activity android:name=".LoginActivity">
+        <activity android:name="com.charles.carritoapp.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

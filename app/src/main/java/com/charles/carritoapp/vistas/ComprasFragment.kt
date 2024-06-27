@@ -1,4 +1,4 @@
-package com.grijalvaromero.carritoapp.vistas
+package com.charles.carritoapp.vistas
 
 import android.content.Context
 import android.os.Bundle
@@ -14,13 +14,11 @@ import com.android.volley.Request
 import com.android.volley.Response
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
-import com.grijalvaromero.carritoapp.R
-import com.grijalvaromero.carritoapp.adapters.ProductoAdapter
-import com.grijalvaromero.carritoapp.adapters.VentaAdapter
-import com.grijalvaromero.carritoapp.configs.ConexionCliente
-import com.grijalvaromero.carritoapp.configs.Config
-import com.grijalvaromero.carritoapp.modelos.Producto
-import com.grijalvaromero.carritoapp.modelos.Venta
+import com.charles.carritoapp.R
+import com.charles.carritoapp.adapters.VentaAdapter
+import com.charles.carritoapp.configs.ConexionCliente
+import com.charles.carritoapp.configs.Config
+import com.charles.carritoapp.modelos.Venta
 import org.json.JSONObject
 
 // TODO: Rename parameter arguments, choose names that match

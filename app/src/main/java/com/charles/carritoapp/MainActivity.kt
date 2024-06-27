@@ -1,12 +1,12 @@
-package com.grijalvaromero.carritoapp
+package com.charles.carritoapp
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.view.WindowManager
-import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AlertDialog
@@ -16,11 +16,10 @@ import androidx.appcompat.widget.Toolbar
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
-import com.grijalvaromero.carritoapp.configs.Conexion
-import com.grijalvaromero.carritoapp.configs.ConexionCliente
-import com.grijalvaromero.carritoapp.vistas.ComprasFragment
-import com.grijalvaromero.carritoapp.vistas.FavsFragment
-import com.grijalvaromero.carritoapp.vistas.HomeFragment
+import com.charles.carritoapp.configs.Conexion
+import com.charles.carritoapp.configs.ConexionCliente
+import com.charles.carritoapp.vistas.ComprasFragment
+import com.charles.carritoapp.vistas.HomeFragment
 
 
 class MainActivity : AppCompatActivity(),NavigationView.OnNavigationItemSelectedListener {
@@ -30,6 +29,7 @@ class MainActivity : AppCompatActivity(),NavigationView.OnNavigationItemSelected
     private lateinit var drawerToggle: ActionBarDrawerToggle
     lateinit var  idLCiente:String
 
+    @SuppressLint("SuspiciousIndentation")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

@@ -1,4 +1,4 @@
-package com.grijalvaromero.carritoapp
+package com.charles.carritoapp
 
 import android.content.Intent
 import android.os.Bundle
@@ -19,14 +19,14 @@ import com.android.volley.Request
 import com.android.volley.Response
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
-import com.grijalvaromero.carritoapp.adapters.CarritoAdapter
-import com.grijalvaromero.carritoapp.configs.Conexion
-import com.grijalvaromero.carritoapp.configs.ConexionCliente
-import com.grijalvaromero.carritoapp.configs.Config
-import com.grijalvaromero.carritoapp.configs.DeslizarItemCarrito
-import com.grijalvaromero.carritoapp.modelos.DetalleVenta
-import com.grijalvaromero.carritoapp.modelos.ItemCarrito
-import com.grijalvaromero.carritoapp.modelos.Producto
+import com.charles.carritoapp.adapters.CarritoAdapter
+import com.charles.carritoapp.configs.Conexion
+import com.charles.carritoapp.configs.ConexionCliente
+import com.charles.carritoapp.configs.Config
+import com.charles.carritoapp.configs.DeslizarItemCarrito
+import com.charles.carritoapp.modelos.DetalleVenta
+import com.charles.carritoapp.modelos.ItemCarrito
+import com.charles.carritoapp.modelos.Producto
 import org.json.JSONObject
 import java.util.*
 
@@ -200,7 +200,7 @@ class Carrito : AppCompatActivity() {
         registrarMaestro()
         db.execSQL("delete from carrito")
          var intent = Intent(this,MainActivity::class.java)
-        intent.putExtra("idCliente", com.grijalvaromero.carritoapp.idCliente)
+        intent.putExtra("idCliente", com.charles.carritoapp.idCliente)
 
         startActivity(intent)
     }
@@ -208,7 +208,7 @@ class Carrito : AppCompatActivity() {
     fun btnAtrasCarrit(view: View) {
 
         var intent = Intent(this, MainActivity::class.java)
-        intent.putExtra("idCliente", com.grijalvaromero.carritoapp.idCliente)
+        intent.putExtra("idCliente", com.charles.carritoapp.idCliente)
         startActivity(intent)
     }
 

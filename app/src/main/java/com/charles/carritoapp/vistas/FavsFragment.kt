@@ -1,11 +1,11 @@
-package com.grijalvaromero.carritoapp.vistas
+package com.charles.carritoapp.vistas
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.grijalvaromero.carritoapp.R
+import com.charles.carritoapp.R
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER

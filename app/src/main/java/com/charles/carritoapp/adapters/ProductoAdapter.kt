@@ -1,4 +1,4 @@
-package com.grijalvaromero.carritoapp.adapters
+package com.charles.carritoapp.adapters
 
 import android.content.Intent
 import android.graphics.Bitmap
@@ -12,9 +12,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.android.volley.Response
 import com.android.volley.toolbox.ImageRequest
 import com.android.volley.toolbox.Volley
-import com.grijalvaromero.carritoapp.R
-import com.grijalvaromero.carritoapp.VerProducto
-import com.grijalvaromero.carritoapp.modelos.Producto
+import com.charles.carritoapp.R
+import com.charles.carritoapp.VerProducto
+import com.charles.carritoapp.modelos.Producto
 
 class ProductoAdapter(var productos:ArrayList<Producto>) : RecyclerView.Adapter<ProductoAdapter.ViewHolder>() {
 

@@ -1,4 +1,4 @@
-package com.grijalvaromero.carritoapp
+package com.charles.carritoapp
 
 import org.junit.Test
 

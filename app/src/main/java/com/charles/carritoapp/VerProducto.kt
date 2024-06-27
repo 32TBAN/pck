@@ -1,12 +1,10 @@
-package com.grijalvaromero.carritoapp
+package com.charles.carritoapp
 
 import android.content.Context
 import android.content.Intent
 import android.database.Cursor
 import android.graphics.Bitmap
-import android.media.Image
 import android.os.Bundle
-import android.util.Log
 import android.view.MenuItem
 import android.view.View
 import android.widget.*
@@ -18,9 +16,9 @@ import com.android.volley.Response
 import com.android.volley.toolbox.ImageRequest
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
-import com.grijalvaromero.carritoapp.configs.Conexion
-import com.grijalvaromero.carritoapp.configs.Config
-import com.grijalvaromero.carritoapp.modelos.Producto
+import com.charles.carritoapp.configs.Conexion
+import com.charles.carritoapp.configs.Config
+import com.charles.carritoapp.modelos.Producto
 import org.json.JSONObject
 
 
@@ -63,7 +61,7 @@ class VerProducto : AppCompatActivity() {
 
         btnImagenCompras.setOnClickListener {
             var intent = Intent(this, Carrito::class.java)
-            intent.putExtra("idCliente", com.grijalvaromero.carritoapp.idCliente)
+            intent.putExtra("idCliente", com.charles.carritoapp.idCliente)
             startActivity(intent)
         }
 

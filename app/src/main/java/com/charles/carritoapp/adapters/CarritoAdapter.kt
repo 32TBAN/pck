@@ -1,4 +1,4 @@
-package com.grijalvaromero.carritoapp.adapters
+package com.charles.carritoapp.adapters
 
 import android.content.ClipData
 import android.content.Context
@@ -18,13 +18,13 @@ import com.android.volley.Response
 import com.android.volley.toolbox.ImageRequest
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
-import com.grijalvaromero.carritoapp.R
-import com.grijalvaromero.carritoapp.VerProducto
-import com.grijalvaromero.carritoapp.configs.Conexion
-import com.grijalvaromero.carritoapp.configs.Config
-import com.grijalvaromero.carritoapp.configs.DeslizarItemCarrito
-import com.grijalvaromero.carritoapp.modelos.ItemCarrito
-import com.grijalvaromero.carritoapp.modelos.Producto
+import com.charles.carritoapp.R
+import com.charles.carritoapp.VerProducto
+import com.charles.carritoapp.configs.Conexion
+import com.charles.carritoapp.configs.Config
+import com.charles.carritoapp.configs.DeslizarItemCarrito
+import com.charles.carritoapp.modelos.ItemCarrito
+import com.charles.carritoapp.modelos.Producto
 import org.json.JSONObject
 import kotlin.math.log
 

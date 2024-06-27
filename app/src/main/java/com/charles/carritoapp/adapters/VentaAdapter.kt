@@ -1,4 +1,4 @@
-package com.grijalvaromero.carritoapp.adapters
+package com.charles.carritoapp.adapters
 
 import android.content.Intent
 import android.graphics.Bitmap
@@ -8,9 +8,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.grijalvaromero.carritoapp.FacturaVerActivity
-import com.grijalvaromero.carritoapp.R
-import com.grijalvaromero.carritoapp.modelos.Venta
+import com.charles.carritoapp.FacturaVerActivity
+import com.charles.carritoapp.R
+import com.charles.carritoapp.modelos.Venta
 import java.text.SimpleDateFormat
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
